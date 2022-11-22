@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: rgb(66, 66, 66);
+    color: white;
+    margin: 0px;
+}
+
+
+
+
+
+#fundotopo {
+    background-image: url("assets/Img/topo1.jpg");
+    max-height: 100px;
+    align-items: center;
+    display: flex;
+    background-size: 100% 100px;
+    justify-content: space-between;
+}
+
+
+
+.banner {
+       
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.bnn1{ background-image: url(../src/assets/Img/banner.jpg);
+    height: 350px;
+
+}
+
+.bnn2{ background-image: url(../src/assets/Img/bnn2.jpg);
+    height: 350px;
+
+}
+
+.bnn3{ background-image: url(../src/assets/Img/bnn3.jpg);
+    height: 350px;
+
+}
+
+
+footer{ 
+    width: 100%;
+    
+    bottom: 0px;
+
+}
+
+
+
