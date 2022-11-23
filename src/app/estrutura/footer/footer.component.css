@@ -1,126 +1,104 @@
-footer{ background-color: black; bottom: 0px;}
-.rodape{
-    max-width: 100vw;
-    height: 150px;
+footer {
     display: flex;
-    align-items:center;
-    /* justify-content: space-between; */
-    margin: 0 auto;
     background-color: black;
-   
+    bottom: 0px;
 }
 
-.logope{ width: 100px}
+.logo {
+    max-width: 150px;
 
-.informacoes{ 
     
-    width: 400px; 
-    display: grid;
-    grid-template-columns: 2fr;
-    
-  
-    /* background-color: azure; */
+    margin-left: 10px;
 }
 
-.icon2{ width: 25px; padding-right: 10px;}
-
-.email{ display: flex; padding: 10px; font-size: 12px;}
-.fone{ display: flex; padding: 10px; font-size: 12px;}
-
-.midias{ width: 200px;}
-
-.local10{ width: 400px;font-size: 12px;}
-.local{ display: flex ;padding: 10px;font-size: 12px;}
-
-.redesoc{ 
-    display: grid;
-    width: 80%;
-    height: 100%;
-    align-items: center;
-    grid-template-columns: repeat(4, 1fr);
-   
-    
-    
-}
-
-
-
-.icon3{width: 50px; padding-right: 20px; padding-top: 10px;}
-
-
-.logop{width: 250px;}
-
-
-
-.fft{ display: flex; }
-.A{ width: 150px; 
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    
-    background-color: brown;}
-
-
-    .B{ width: 100px; 
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        text-align: center;
-        
-        background-color: rgb(1, 245, 103);}
-    
-
-
-@media (max-width:897px){ 
-
-
-    .fft{display:none;
-    
+.logope {
+    width: 100%;
  
-      
+}
+
+
+
+.icon2{ width: 10%;
+        height: 10%;
+        margin-left: 5px;
     
-     
-
     }
+.contatos{
+    
+
+    width: 300px;
+
+   
+    margin-left: 10px;
 
 
+}
 
-    .CTrc{ display: none;}
+.Midias{
+    width: 300px;
 
-
-    .RDSrc{ display: none;}
-
-    .Locrc{ display: none;}
+    
+    margin-left: 10px;
 
 
 }
 
 
-@media (max-width:600px){ }
+.local{ 
 
-@media (max-width:415px){
+    width: 300px;
+
+    
+    margin-left: 50px;
 
 
 
-    .fft{display:flex;
-  
+
+
+
+}
+
+.RDS{ width: 50px; 
+    height: 50px;
+    
+   
+}
+
+.icon3{width: 100%;
+height: 100%;}
+
+@media (max-width:897px) {}
+
+@media (max-width:600px) {}
+
+
+@media (max-width:415px) {
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
         max-width: 100vw;
         justify-content: center;
-    
-     
-
+        justify-items: center;
+        
     }
 
+    .contatos{
+        margin-top: 50px;
+        width: 90vw;
+    margin-left: 0px;}
+
+    .Midias{
+        margin-top: 50px;
+        width: 80vw;
+        margin-left: 0px;
 
 
-    .CTrc{ display: none;
-    width: 100vw}
+    }
+.local{ 
+margin-top: 50px;
+    width: 80vw;
+        margin-left: 0px;
+}
 
-
-    .RDSrc{ display: none;}
-
-    .Locrc{ display: none;}
- }
-
-
+}
